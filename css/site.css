@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../img/fundo-topo.jpg);
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    height: 80px;
+}
+
+
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png) ;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav li a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #6dd432;
+}
+
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.conteiner .col{
+    width: 430px;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto{
+    width: 235px;
+}
+
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.produto figure img {
+    text-align: center;
+}
+
+.btn-patinha{
+    border:1px solid #91e467;
+    background-color: #d2fbbd;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+form{
+    width: 300px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom:10px;
+
+}
+
+.inframe{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid #6dd432 ;
+    font-size: 12px;
+    padding: 15px, 0;
+    font-family: initial;
+}
+
+
+
+
+
